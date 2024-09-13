@@ -12,10 +12,10 @@ export default function Document() {
         />
         <meta
           name="description"
-          content="Ticket management system selfhosted open source"
+          content="CloudZA Support Management System"
         />
         <meta name="keywords" content="Keywords" />
-        <title>Peppermint</title>
+        <title>CloudZA Support</title>
 
         <link href="/favicon/favicon.ico" rel="icon" />
         <link
