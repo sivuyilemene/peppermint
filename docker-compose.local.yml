@@ -1,16 +1,18 @@
 version: "3.1"
 
 services:
-  peppermint_postgres:
+  db:
     container_name: peppermint_postgres
     image: postgres:latest
     restart: always
     volumes:
       - pgdata:/var/lib/postgresql/data
     environment:
-      POSTGRES_USER: peppermint
-      POSTGRES_PASSWORD: 1234
-      POSTGRES_DB: peppermint
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME}
+    ports:
+      - "5432:5432"
 
   peppermint:
     container_name: peppermint
@@ -20,7 +22,7 @@ services:
       - 5001:5003
     restart: always
     depends_on:
-      - peppermint_postgres
+      - db
     environment:
       DB_USERNAME: "peppermint"
       DB_PASSWORD: "1234"
