@@ -14,10 +14,10 @@ const seoConfig = {
   },
   manifest: "/site.webmanifest",
   icons: [
-    { rel: "icon", url: "/favicon.ico" },
-    { rel: "apple-touch-icon", url: "/apple-touch-icon.png" },
-    { rel: "mask-icon", url: "/favicon.ico" },
-    { rel: "image/x-icon", url: "/favicon.ico" },
+    { rel: "icon", url: "/cloudza-favicon.png" },
+    { rel: "apple-touch-icon", url: "/cloudza-apple-touch-icon.png" },
+    { rel: "mask-icon", url: "/cloudza-favicon.png" },
+    { rel: "image/x-icon", url: "/cloudza-favicon.png" },
   ],
   twitter: {
     site: "@potts_dev",

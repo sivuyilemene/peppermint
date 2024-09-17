@@ -19,18 +19,18 @@ export default function Document() {
 
         <link href="/favicon/favicon.ico" rel="icon" />
         <link
-          href="/favicon/favicon-16x16.png"
+          href="/favicon/cloudza-favicon-16x16.png"
           rel="icon"
           type="image/png"
           sizes="16x16"
         />
         <link
-          href="/favicon/favicon-32x32.png"
+          href="/favicon/cloudza-favicon-32x32.png"
           rel="icon"
           type="image/png"
           sizes="32x32"
         />
-        <link rel="apple-touch-icon" href="/apple-icon.png"></link>
+        <link rel="apple-touch-icon" href="/cloudza-apple-touch-icon.png"></link>
         <meta name="theme-color" content="#317EFB" />
       </Head>
       <body>
