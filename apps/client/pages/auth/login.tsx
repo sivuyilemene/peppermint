@@ -87,7 +87,7 @@ export default function Login({}) {
         <a target="_blank" href="https://cloudza.io/">
           <img
             className="mx-auto h-36 w-auto"
-            src="/login.svg"
+            src="/cloudza-login.png"
             alt="cloudza logo"
           />
         </a> 
