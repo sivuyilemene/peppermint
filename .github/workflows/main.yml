@@ -41,3 +41,5 @@ jobs:
           push: true
           tags: |
             sivuyilemene/peppermint:latest
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL}}
